@@ -42,17 +42,17 @@ train_dict = {"Rey": Rey,
               "work_path": 'Wind_Ref_Assim',
               "C_LoS":1,  # 1 or 0, if LoS data available
               "M_LoS": 11, "batch_LoS_data": 11*2*100,
-              "LoS_h5_paths": ['../LIDAR.U8.XY.h5/LIDAR_Beam_Down_p11.h5',
-                               '../LIDAR.U8.XY.h5/LIDAR_Beam_Up_p11.h5'],
+              "LoS_h5_paths": ['../Sensor.U8.XY.h5/LIDAR_Beam_Down_p11.h5',
+                               '../Sensor.U8.XY.h5/LIDAR_Beam_Up_p11.h5'],
               "C_Uvec":0, # if Uvec data available
               "M_Uvec": 3, "batch_Uvec_data": (3)*100, # Ref(5),IAG(4+6)
-              "Uvec_h5_paths": ['../LIDAR.U8.XY.h5/M_XY_Mid_p3_t100_dt1.h5'],
+              "Uvec_h5_paths": ['../Sensor.U8.XY.h5/M_XY_Mid_p3_t100_dt1.h5'],
               "C_uv":0,  # if uv data available
               "M_uv":3, "batch_uv_data": (3)*100,
-              "uv_h5_paths": ['../LIDAR.U8.XY.h5/M_XY_Down_p3_t100_dt1.h5'],
+              "uv_h5_paths": ['../Sensor.U8.XY.h5/M_XY_Down_p3_t100_dt1.h5'],
               "C_p":0,   # if p data available
               "M_p": 3, "batch_p_data": 3*100,
-              "p_h5_paths": ['../LIDAR.U8.XY.h5/M_XY_Up_p3_t100_dt1.h5'],
+              "p_h5_paths": ['../Sensor.U8.XY.h5/M_XY_Up_p3_t100_dt1.h5'],
               "net_type": 'u_v_p_nu', # Net type: u_v_p, psi_p, u_v_p_nu, psi_p_nu
               "hidden_layers": 10, # uncount in/out 10
               "layer_neuros": 128, # 128
@@ -81,7 +81,7 @@ train_dict = {"Rey": Rey,
               "LBFGS_inner": 20, # 20
               "lr_BFGS":0.001,
               # validation
-              "real_path": ['../LIDAR.U8.XY.h5/LIDAR_Center_XY_Z90_49x25_t100_dt1.h5'],
+              "real_path": ['../Sensor.U8.XY.h5/LIDAR_Center_XY_Z90_49x25_t100_dt1.h5'],
               "model_load_path": 'None.pth', # Checkpoint Resumption
               "loss_load_path": 'None.loss.csv', # Checkpoint Resumption
               "lr_load_path": 'None.lr.csv', # Checkpoint Resumption
