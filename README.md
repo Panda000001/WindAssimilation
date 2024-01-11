@@ -11,3 +11,17 @@ The test wind flow field is an atmospheric boundary layer flow simulated by [SOW
 <img src="./Visualization/Case8Pred100s.gif" alt="Case8Pred100s" width="360" height="180" />
 <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="360" height="180" />
 
+<figure align="center">
+  <img src="./Visualization/True100s.gif" alt="True100s" width="360" height="180" />
+  <figcaption>True100s</figcaption>
+</figure>
+
+<figure align="center">
+  <img src="./Visualization/Case8Pred100s.gif" alt="Case8Pred100s" width="360" height="180" />
+  <figcaption>Case8Pred100s</figcaption>
+</figure>
+
+<figure align="center">
+  <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="360" height="180" />
+  <figcaption>Case8Error100s</figcaption>
+</figure>
