@@ -13,8 +13,14 @@ Since detailed flow field information is reconstructed, other flow field charact
 ![Case8_Ueff](./Visualization/Case8_Ueff.jpg)
 
 ## Transfer learning
-The incorporation of transfer learning enables PINN to predict flow fields over extended periods. Historically, PINN has operated exclusively in an offline mode. This work presents a potential solution for online deployment. The pre-trained PINN is deployed online and then trained on the dataset of real-time measurement data over a certain period. The transfer learning duration required is less than the actual physical flow
+Section 3.4 of the paper examines the feasibility of deploying this framework online using transfer learning. The incorporation of transfer learning enables PINN to predict flow fields over extended periods. Historically, PINN has operated exclusively in an offline mode. This work presents a potential solution for online deployment. The pre-trained PINN is deployed online and then trained on the dataset of real-time measurement data over a certain period. The transfer learning duration required is less than the actual physical flow
 time, yet the model achieves acceptable accuracy in reconstructing the flow field for this period. At the wind turbine site, the maximum error between the effective wind speed predicted online and the actual wind speed is only 3.7%. This represents a significant improvement compared to models that have not undergone transfer learning. Therefore, the proposed framework demonstrates its potential for online deployment, making it a viable component of wind turbine online control systems.
 ![Trans_Ueff](./Visualization/Trans_Ueff.jpg)
 
 ![Case8-2-trans-Combine100s](./Visualization/Case8-2-trans-Combine100s.gif)
+
+## License
+This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Acknowledgements
+Special thanks to Raissi Maziar for the inspiration and foundational work in the field of [Physics-Informed Neural Networks](https://github.com/maziarraissi/HFM) Thanks to Jincheng Zhang for his pioneering research of [introducing PINN to wind energy](https://www.sciencedirect.com/science/article/abs/pii/S0306261921001732), and providing the simulation cases in `SOWFA.script`.
