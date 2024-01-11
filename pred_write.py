@@ -8,7 +8,7 @@ import h5py
 
 device = torch.device("cuda")
 
-real_path = './LIDAR.U8.XY.h5/LIDAR_Center_XY_Z90_49x25_t100_dt1.h5'
+real_path = './Sensor.U8.XY.h5/Center_XY_Z90_49x25_t100_dt1.h5'
 
 
 work_path = './model_save'
