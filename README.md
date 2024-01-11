@@ -23,7 +23,7 @@ It must be acknowledged that the prediction of velocity fluctuations is not as a
 ![Case8-2-trans-Combine100s](./Visualization/Case8-2-trans-Combine100s.gif)
 
 ## 4. License
-This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
+To further promote the utilization of renewable energy, the framework is fully open-sourced under the [MIT License](https://opensource.org/licenses/MIT), and collaborative development is also encouraged.
 
 ## 5. Acknowledgments
 Special thanks to Raissi Maziar for the inspiration and foundational work in the field of [Physics-Informed Neural Networks](https://github.com/maziarraissi/HFM). Thanks to Jincheng Zhang for his pioneering research of [introducing PINN to wind energy](https://www.sciencedirect.com/science/article/abs/pii/S0306261921001732), and for providing the simulation cases in the folder `./SOWFA.script`.
