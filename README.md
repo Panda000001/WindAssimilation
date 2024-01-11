@@ -15,16 +15,16 @@ The test wind flow field is an atmospheric boundary layer flow simulated by [SOW
 <figcaption>Case8Error100s</figcaption>
 
 <div style="text-align: center;">
-    <div style="display: inline-block; margin: 10px;">
-        <img src="./Visualization/True100s.gif" alt="True100s" width="340" height="170" />
+    <div style="display: inline-block; margin: 1px;">
+        <img src="./Visualization/True100s.gif" alt="True100s" width="200" height="100" />
         <figcaption>True100s</figcaption>
     </div>
-    <div style="display: inline-block; margin: 10px;">
-        <img src="./Visualization/Case8Pred100s.gif" alt="Case8Pred100s" width="340" height="170" />
+    <div style="display: inline-block; margin: 1px;">
+        <img src="./Visualization/Case8Pred100s.gif" alt="Case8Pred100s" width="200" height="100" />
         <figcaption>Case8Pred100s</figcaption>
     </div>
-    <div style="display: inline-block; margin: 10px;">
-        <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="340" height="170" />
+    <div style="display: inline-block; margin: 1px;">
+        <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="200" height="100" />
         <figcaption>Case8Error100s</figcaption>
     </div>
 </div>
