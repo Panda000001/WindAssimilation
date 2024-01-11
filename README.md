@@ -14,17 +14,18 @@ The test wind flow field is an atmospheric boundary layer flow simulated by [SOW
 <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="360" height="180" />
 <figcaption>Case8Error100s</figcaption>
 
-<figure align="center">
-  <img src="./Visualization/True100s.gif" alt="True100s" width="360" height="180" />
-  <figcaption>True100s</figcaption>
-</figure>
+<div style="text-align: center;">
+    <div style="display: inline-block; margin: 10px;">
+        <img src="./Visualization/True100s.gif" alt="True100s" width="360" height="180" />
+        <figcaption>True100s</figcaption>
+    </div>
+    <div style="display: inline-block; margin: 10px;">
+        <img src="./Visualization/Case8Pred100s.gif" alt="Case8Pred100s" width="360" height="180" />
+        <figcaption>Case8Pred100s</figcaption>
+    </div>
+    <div style="display: inline-block; margin: 10px;">
+        <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="360" height="180" />
+        <figcaption>Case8Error100s</figcaption>
+    </div>
+</div>
 
-<figure align="center">
-  <img src="./Visualization/Case8Pred100s.gif" alt="Case8Pred100s" width="360" height="180" />
-  <figcaption>Case8Pred100s</figcaption>
-</figure>
-
-<figure align="center">
-  <img src="./Visualization/Case8Error100s.gif" alt="Case8Error100s" width="360" height="180" />
-  <figcaption>Case8Error100s</figcaption>
-</figure>
