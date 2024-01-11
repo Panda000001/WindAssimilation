@@ -23,4 +23,4 @@ time, yet the model achieves acceptable accuracy in reconstructing the flow fiel
 This project is open-sourced under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## 5. Acknowledgments
-Special thanks to Raissi Maziar for the inspiration and foundational work in the field of [Physics-Informed Neural Networks](https://github.com/maziarraissi/HFM) Thanks to Jincheng Zhang for his pioneering research of [introducing PINN to wind energy](https://www.sciencedirect.com/science/article/abs/pii/S0306261921001732), and providing the simulation cases in `SOWFA.script`.
+Special thanks to Raissi Maziar for the inspiration and foundational work in the field of [Physics-Informed Neural Networks](https://github.com/maziarraissi/HFM) Thanks to Jincheng Zhang for his pioneering research of [introducing PINN to wind energy](https://www.sciencedirect.com/science/article/abs/pii/S0306261921001732), and providing the simulation cases in the dictionary `./SOWFA.script`.
