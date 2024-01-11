@@ -7,4 +7,4 @@ The main program, `main.py`, is the training process, in which the [wandb](https
 ## Test case
 The test wind flow field is an atmospheric boundary layer flow simulated by [SOWFA (Simulator fOr Wind Farm Applications)](https://www.nrel.gov/wind/nwtc/sowfa.html). The flow field within the horizontal plane upstream of the wind turbine site is chosen to be the test area of the proposed framework. 
 ![Fig2_CFD_Result](./Visualization/Fig2_CFD_Result.jpg)
-![True100s](./Visualization/True100s.gif=10×8) ![Case8Pred100s](./Visualization/Case8Pred100s.gif=10×8) ![Case8Error100s](./Visualization/Case8Error100s.gif=10×8)
+![True100s]("./Visualization/True100s.gif"=10×8) ![Case8Pred100s]("./Visualization/Case8Pred100s.gif"=10×8) ![Case8Error100s]("./Visualization/Case8Error100s.gif"=10×8)
