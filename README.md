@@ -11,6 +11,10 @@ The test wind flow field is an atmospheric boundary layer flow simulated by [SOW
 Section 3.1 of the paper investigates the accuracy of assimilating different types of measurement data. The flow field reconstructed by the trained model in Case 8, as well as the error compared to the actual values, are presented as follows.
 ![Case8Combine100s](./Visualization/Case8Combine100s.gif)
 Since detailed flow field information is reconstructed, other flow field characteristics such as effective wind speed and instantaneous speed at a specific location can also be obtained.
+Effective wind speed is defined as the average of the wind speed projected onto the rotor plane:
+
+ $${\overline u_{eff} (x,t)} = \frac{1}{{{N_y}}}\sum\limits_{i = 1}^{{N_y}} {u(x,{y_i},t)},\quad {y_i} \in \left( { - D/2,D/2} \right)$$
+
 ![Case8_Ueff](./Visualization/Case8_Ueff.jpg)
 
 ## 3. Transfer learning
