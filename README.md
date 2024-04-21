@@ -9,7 +9,13 @@ The test wind flow field is an atmospheric boundary layer flow simulated by [SOW
 
 ![Fig2_CFD_Result](./Visualization/Fig2_CFD_Result.jpg)
 Section 3.1 of the paper investigates the accuracy of assimilating different types of measurement data. The flow field reconstructed by the trained model in Case 8, as well as the error compared to the actual values, are presented as follows.
+
 ![Case8Combine100s](./Visualization/Case8Combine100s.gif)
+
+The comparison of the spatial extrapolated wind flow field by the PINN trained in Case 8 with the ground truth within the region $x \in [-6D,2D]$, $y \in [-2D,2D]$. The dotted rectangular frame represents the range of equation points. 
+
+![Case8_Spatio_Extrapolation](./Visualization/Case8_Spatio_Extrapolation.gif)
+
 Since detailed flow field information is reconstructed, other flow field characteristics such as effective wind speed and instantaneous speed at a specific location can also be obtained.
 Effective wind speed is defined as the average of the wind speed projected onto the rotor plane:
 
